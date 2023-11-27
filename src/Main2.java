@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main2 {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Scrivi la prima parola");
         String word1 = scanner.nextLine();
@@ -17,7 +17,7 @@ public class Main2 {
         String reverseCompleteString = word3 + word2 + word1;
         System.out.println("La stringa al contrario è : " + reverseCompleteString);
 
-
+        scanner.close();
 
     }
 
