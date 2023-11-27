@@ -18,9 +18,16 @@ public class Main1 {
         return str1 + num3;
     }
 
-    /*public static Arrays arrayOfString(String[] arr1, String str2){
-        String[] array = {"ciao", "Java", "cane", "gatto", "codice"};
-        String stringa = "caldo";
-        return array + stringa;
-    }*/
+    public static String[] inserisciInArray(String[] array, String s){
+        String[] newArray = new String[6];
+        for( int i = 0; i< 2; i++){
+            newArray[i] = array[i];
+
+        }
+        newArray[2] = s;
+        for(int i = 3; i < newArray.length; i++){
+            newArray[i] =array[i-1];
+        }
+        return newArray;
+    }
 }

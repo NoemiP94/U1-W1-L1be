@@ -11,10 +11,10 @@ public class Main2 {
         System.out.println("Scrivi la terza parola");
         String word3 = scanner.nextLine();
 
-        String completeString = word1 + word2+ word3;
+        String completeString = word1 + " " + word2 + " " + word3;
         System.out.println("Il risultato è: " + completeString);
 
-        String reverseCompleteString = word3 + word2 + word1;
+        String reverseCompleteString = word3 + " " + word2 + " " + word1;
         System.out.println("La stringa al contrario è : " + reverseCompleteString);
 
         scanner.close();
